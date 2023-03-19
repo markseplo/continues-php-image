@@ -26,6 +26,6 @@ jobs:
       
     - name: Build, tag and push the Docker image
       run: |
-      docker build . --t mseplo/continuous_php_image
-      docker tag mseplo/continuous_php_image:latest public.ecr.aws/p8g1w5w4/mseplo/continuous_php_image:latest
-      docker push public.ecr.aws/p8g1w5w4/mseplo/continuous_php_image:latest
+        docker build . --t mseplo/continuous_php_image
+        docker tag mseplo/continuous_php_image:latest public.ecr.aws/p8g1w5w4/mseplo/continuous_php_image:latest
+        docker push public.ecr.aws/p8g1w5w4/mseplo/continuous_php_image:latest
